@@ -4,6 +4,7 @@
 1. Compile it in Visual Studio (2015+)
 2. Put dll file into system/autorun directory (or pack it in VDF file)
 3. Add external script functions into your scripts
+4. Don't add Waypoints or Freepoints into vobtree (better not)
 
 
 **External script functions:** (add it in Gothic Sourcer)
