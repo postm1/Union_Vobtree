@@ -80,6 +80,7 @@ namespace GOTHIC_ENGINE {
   }
   
   void Game_DefineExternals() {
+      RX_RegisterExternals();
   }
 
   void Game_ApplyOptions() {

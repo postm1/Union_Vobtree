@@ -870,6 +870,10 @@ $(ALLUSERSPROFILE)\Union\SDK\Union\v1.0m\Build\incver.exe $(ProjectDir)</Command
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DllMain.cpp" />
+    <ClInclude Include="Externals.cpp">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="Plugin.cpp" />
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="ZenGin\Gothic_II_Addon\ClassDeclarators_G2A.cpp" />

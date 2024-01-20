@@ -4,6 +4,7 @@
 // Automatically generated block
 #pragma region Includes
 #include "Utils.cpp"
+#include "Externals.cpp"
 #include "Plugin.cpp"
 #pragma endregion
 

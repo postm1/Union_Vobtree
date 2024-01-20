@@ -2781,6 +2781,9 @@
     <ClInclude Include="Utils.cpp">
       <Filter>Plugin\Workspace</Filter>
     </ClInclude>
+    <ClInclude Include="Externals.cpp">
+      <Filter>Plugin\Workspace\Plugin</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include=".build_settings.inl">
