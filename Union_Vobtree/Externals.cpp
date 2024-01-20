@@ -58,8 +58,8 @@ namespace GOTHIC_ENGINE {
 
 	void RX_RegisterExternals()
 	{
-		parser->DefineExternal("RX_InsertVobTreeParent", RX_InsertVobTreeParent, zPAR_TYPE_VOID, zPAR_TYPE_STRING, 0);
-		parser->DefineExternal("RX_InsertVobTree", RX_InsertVobTree, zPAR_TYPE_VOID, zPAR_TYPE_STRING, 0);
-		parser->DefineExternal("RX_RemoveVobTree", RX_RemoveVobTree, zPAR_TYPE_VOID, zPAR_TYPE_STRING, 0);
+		parser->DefineExternal("Ext_InsertVobTreeParent", RX_InsertVobTreeParent, zPAR_TYPE_VOID, zPAR_TYPE_STRING, 0);
+		parser->DefineExternal("Ext_InsertVobTree", RX_InsertVobTree, zPAR_TYPE_VOID, zPAR_TYPE_STRING, 0);
+		parser->DefineExternal("Ext_RemoveVobTree", RX_RemoveVobTree, zPAR_TYPE_VOID, zPAR_TYPE_STRING, 0);
 	}
 }
