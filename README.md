@@ -1,4 +1,4 @@
-**This plugin adds new external functions which allow you to add/remove votree in game dynamically via scripts.**
+**This plugin adds new external functions which allow you to add/remove a vobtree (a bunch of saved vobs) in game dynamically via scripts.**
 
 **How to install:**
 1. Compile it in Visual Studio (2015+)
