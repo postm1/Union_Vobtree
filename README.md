@@ -1,7 +1,9 @@
 **This plugin adds new external functions which allow you to add/remove votree in game dynamically via scripts.**
 
 **How to install:**
-Compile it in Visual 
+1. Compile it in Visual Studio (2015+)
+2. Put dll file into system/autorun directory (or pack it in VDF file)
+3. Add external script functions into your scripts
 
 
 **External script functions:** (add it in Gothic Sourcer)
@@ -14,13 +16,13 @@ func void Ext_RemoveVobTree(var string vobName);
 
 
 
+
 **Example of usage:**
 
 1. Make .ZEN file with a vobtree in Spacer NET with a unique name of the parent
 2. Save it in VDF file with a path _WORK/DATA/WORLD/VOBTREE (you can use any folder inside WORLD folder)
 3. In scripts load vobtree when you need it.
    
-   **Example:**
    In some loop function or trigger:
    ```
    if (!CheckInsertNewVobtree_1)
